@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Entrar e Cadastrar</title>
+</head>
+<body>
+    <div class="card">
+        <div class="card-inner">
+            <!-- Frente -->
+            <div class="card-front">
+                <h1>Login</h1>
+                <form>
+                    <div class="input-box">
+                        <input type="text" placeholder="Email" required>
+                        <i class='bx bx-envelope'></i>
+                    </div>
+                    <div class="input-box">
+                        <input type="password" placeholder="Senha" required>
+                        <i class='bx bxs-lock-alt'></i>
+                    </div>
+                    <div class="remember-forgot">
+                        <label><input type="checkbox">Mantenha-me conectado</label>
+                        <a href="#">Esqueci minha senha</a>
+                    </div>
+                    <button class="btn">Logar</button>
+                    <p class="switch-link">Não tem uma conta? <a id="switchToRegister">Cadastre-se já</a></p>
+                </form>
+            </div>
+
+            <!-- Costas -->
+            <div class="card-back">
+                <h1>Register</h1>
+                <form>
+                    <div class="input-box">
+                        <input type="text" placeholder="Username" required>
+                        <i class='bx bxs-user'></i>
+                    </div>
+                    <div class="input-box">
+                        <input type="text" placeholder="Email" required>
+                        <i class='bx bx-envelope'></i>
+                    </div>
+                    <div class="input-box">
+                        <input type="text" placeholder="Data de Nascimento" required>
+                        <i class='bx bxs-calendar'></i>
+                    </div>
+                    <div class="input-box">
+                        <input type="password" placeholder="Senha" required>
+                        <i class='bx bxs-lock-alt'></i>
+                    </div>
+                    <div class="input-box">
+                        <input type="password" placeholder="Confirme sua Senha" required>
+                        <i class='bx bxs-lock-alt'></i>
+                    </div>
+                    <button class="btn">Register</button>
+                    <p class="switch-link">Já tem uma conta? <a id="switchToLogin">Entre já</a></p>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="src/js/scripts.js"></script>
+</body>
+</html>
